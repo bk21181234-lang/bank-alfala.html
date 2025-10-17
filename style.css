@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    /* background-color: #f6f6f6; */
+}
+
+header {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+
+
+}
+
+.main-nav {
+    background-color: #f6f6f6;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-nav li {
+    padding: 16px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.left-nav li a {
+    padding: 12px;
+
+    color: black;
+    text-decoration: none;
+}
+
+.left-nav li a:hover {
+      padding: 12px;
+    background-color: #ffffff;
+    border-top: 1px solid rgb(154, 148, 148);
+    border-left: 1px solid rgb(154, 148, 148);
+    border-right: 1px solid rgb(154, 148, 148);
+    border-bottom: none;
+    color: red;
+
+    border-radius: 10px 10px 0px 0px;   
+}
+
+
+
+
+.right-nav li {
+    background-color: #f6f6f6;
+
+    padding: 16px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.right-nav li a {
+    padding: 12px;
+
+    background-color: #f6f6f6;
+    color: black;
+    text-decoration: none;
+}
+
+.right-nav li a:hover {
+    padding: 12px;
+    background-color: #ffffff;
+    border-top: 1px solid rgb(154, 148, 148);
+    border-left: 1px solid rgb(154, 148, 148);
+    border-right: 1px solid rgb(154, 148, 148);
+    border-bottom: none;
+    color: red;
+
+    border-radius: 10px 10px 0px 0px;
+}
+.second-nav{
+    padding: 14px;
+    background-color:f8f9fa;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:1px 1px 5px rgb(72, 71, 71);
+}
+.second-nav li{
+    list-style: none;
+    
+}
+.second-nav li a{
+    margin: 30px;
+}
+ .search-icon {
+    color: red;   /* Red color */
+    font-size: 24px; /* Size adjust karo */
+    cursor: pointer;
+}
+.main-hero-section{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./Assets/conventional-back\ \(2\).webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.hero-left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background: blue; */
+
+
+}
+.content{
+    height: 70%;
+    width: 80%;
+    /* background-color: violet; */
+  
+
+}
+.content h1{
+    font-weight:700;
+    line-height: 1.2;
+    font-size: 46px;
+    color: red;
+    margin-bottom: 1.5rem;
+}
+.content p{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-weight:400;
+    color: #454545;
+    margin-bottom:10px ;
+}
+.content button{
+    background-color: red;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 16px 24px 16px 30px;
+    border-radius: 54px;
+    border: 2px solid red;
+    margin: 20px;
+    color: white;
+}
+.hero-right{
+    width: 50%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+marquee{
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid white;
+}
+.banking-solution{
+    width: 80%;
+    margin: auto;
+    height: 1000px;
+    /* background-color: aquamarine; */
+}
+.heading{
+    padding: 30px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.cards{
+    width: 100%;
+    margin: auto;
+    height: 80%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-1{
+    background-color: aliceblue;
+    width: 20%;
+    height: 35%;
+    /* height: 30%; */
+    margin: 25px;
+    /* border: 2px solid grey; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:12px 12px 20px 12px;
+    line-height: 1.4;
+}
+.card-1 h3{
+    align-self:first baseline;
+    font-size: 22px;
+    font-weight: 700;
+}
+.card-1 p{
+    color: #454545;
+    align-self:first baseline;
+
+    
+}
+.image{ 
+    margin: 10px;
+    padding-left: 12px;
+    width: 100%;
+    display: flex;
+    align-items: left;
+}
+.card-1 button{
+    align-self: flex-start;
+    background-color: aliceblue;
+   
+    font-size: 14px;
+    /* line-height: 16px; */
+    /* font-weight: 400; */
+    padding: 8px 8px 8px 8px;
+    border-radius: 54px;
+    border: 2px solid red;
+    margin: 14px;
+    color:red;
+}
+
+
+
+
+
